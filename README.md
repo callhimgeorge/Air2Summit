@@ -1,3 +1,4 @@
+<img width="600" height="120" alt="Air2Summit" src="https://github.com/user-attachments/assets/6bd2b77f-23bb-49cd-995b-d6863ab0fd67" />
 # Air2Summit Open Components
 
 Air2Summit is a modular, travel-focused hiking pole project.
