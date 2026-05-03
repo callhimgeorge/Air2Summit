@@ -9,6 +9,8 @@ The aim is to make parts of the project understandable, adaptable, and useful to
 
 ## Project status
 
+
+
 Air2Summit is currently in early development.
 
 Current focus:
@@ -18,6 +20,8 @@ Current focus:
 - Tip and accessory system planning
 - Open component documentation
 
+
+<img width="1536" height="1024" alt="render image air 2 summit" src="https://github.com/user-attachments/assets/dd2a787e-899a-4352-9562-2931d1bb233f" />
 This repository will grow as the physical product develops.
 
 ## What is open
