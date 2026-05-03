@@ -1,46 +1,72 @@
-# Air2Summit
+# Air2Summit Open Components
 
-Air2Summit is a modular hiking pole system intended for travel, field repair, and adaptation to different terrain and use cases.
+Air2Summit is a modular, travel-focused hiking pole project.
 
-This repository publishes the parts of the system that can be shared without exposing critical proprietary design work. The goal is practical openness: release the components that benefit from community improvement, while keeping safety-critical and supplier-specific assemblies under controlled development.
+This repository contains selected open components from the Air2Summit system, focused mainly on non-critical parts, accessories, and future expansion items.
 
-## Scope
+The aim is to make parts of the project understandable, adaptable, and useful to others while keeping safety-critical and manufacturer-restricted details controlled.
 
-Open in this repository:
+## Project status
 
-- Interchangeable tips
-- Accessory mounts
-- Small accessories and attachment parts
-- Reference documentation for the open interfaces
+Air2Summit is currently in early development.
 
-Closed and not included here:
+Current focus:
+
+- Supplier evaluation
+- Sample selection
+- Tip and accessory system planning
+- Open component documentation
+
+This repository will grow as the physical product develops.
+
+## What is open
+
+- Tip accessories
+- Mounts
+- Non-structural adapters
+- Concept CAD
+- Design notes
+- Reference documentation
+
+These parts are intended to support experimentation, modification, and community development.
+
+## What is not open yet
 
 - Structural joints
-- Locking systems
-- Supplier-specific parts and protected manufacturing details
-- Any component where uncontrolled replication could create avoidable safety or reliability risk
+- Locking mechanisms
+- Clamp details
+- Supplier-specific components
+- Manufacturing drawings
+- Safety-critical tolerances
 
-## Design Approach
+These may remain closed due to safety, reliability, supplier agreements, or manufacturing constraints.
 
-Air2Summit is open where possible, not open at any cost.
+## Open design philosophy
 
-That means the published hardware is intended to be useful on its own, mechanically understandable, and easy to modify. At the same time, the project does not publish assemblies that carry primary structural loads, depend on confidential sourcing, or require controlled validation before release.
+"As open as possible, without compromising quality, safety, or delivery."
+
+Air2Summit is being developed as a practical product first, with open components released where they make sense.
+
+The long-term aim is to build an accessory ecosystem around the poles, allowing users to adapt and improve non-critical parts of the system.
+
+## Repository structure
+
+```text
+docs/              Project notes and documentation
+cad/tips/          Tip concepts and related components
+cad/mounts/        Mounting accessories
+cad/accessories/   Other non-critical accessories
+drawings/          Technical drawings where available
+images/            Renders and reference images
+```
 
 ## License
 
-Open hardware files in this repository are provided under the CERN-OHL-W v2 license unless stated otherwise in a specific file or directory.
+Selected open components in this repository are intended to be released under CERN-OHL-W v2.
+See LICENSE.txt for details.
 
-See [LICENSE.txt](C:\Users\george\Documents\GitHub\Air2Summit\LICENSE.txt).
+## Disclaimer
 
-## Repository Layout
-
-- `docs/` - project overview and assembly guidance
-- `cad/tips/` - open tip system files and notes
-
-Additional open modules may be added over time as interfaces stabilize and release criteria are met.
-
-## Usage Disclaimer
-
-The files in this repository are provided for development, evaluation, and modification by technically competent users. They are not a certification, warranty, or claim of fitness for life-safety use.
-
-If you manufacture or modify parts from these files, you are responsible for material selection, process control, inspection, field testing, and compliance with any applicable regulations.
+Files are provided for reference and development purposes.
+They are not certified for safety-critical use unless specifically stated.
+Anyone modifying, manufacturing, or using these parts is responsible for validating their safety and suitability.

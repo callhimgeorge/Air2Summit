@@ -1,22 +1,17 @@
 # Tip System
 
-This directory is intended for the open tip interface used by Air2Summit-compatible pole ends.
+This directory covers the Air2Summit tip system as an intended open component area.
 
-The tip system is designed to support interchangeable end-effectors for different terrain conditions, wear states, and user preferences. Published files should focus on the external geometry, attachment interface, and replaceable contact features rather than the closed structural assemblies upstream.
+The tip interface is expected to support interchangeable non-critical end components and related accessories without exposing the full closed structural design of the pole.
 
-## Interface
+## Interface Notes
 
-The current placeholder interface is a threaded connection such as `M6` or `M8`, depending on the final pole-end standard selected for release.
+Placeholder interfaces may include threaded tip connections such as `M6` or `M8`, subject to supplier and manufacturer confirmation.
 
-When publishing or modifying tip designs, document:
+Possible variants include:
 
-- Thread size and pitch
-- Engagement length
-- Recommended material
-- Any required shoulder, taper, or anti-rotation features
+- Rubber ferrule
+- Trail tip
+- Accessory mount
 
-## Modification
-
-You are encouraged to adapt the tip geometry for different surfaces, replaceable wear inserts, or alternate manufacturing methods.
-
-If you create derivatives, keep the mating interface clearly defined and preserve compatibility notes so parts can be reused across revisions.
+Dimensions in this folder should be treated as placeholders until prototype validation is complete.

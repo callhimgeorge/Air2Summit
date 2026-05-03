@@ -1,25 +1,26 @@
 # Air2Summit Overview
 
-Air2Summit is a modular trekking pole platform built around compact travel packaging and interchangeable functional components.
+Air2Summit is a modular, travel-focused hiking pole system being developed as a practical physical product with selected open components released where appropriate.
 
-## Architecture
+## High-Level Architecture
 
-At a high level, the system can be viewed as three layers:
+The system can be considered in three main groups:
 
-- Core structural assemblies: shafts, joints, and locking features that carry primary load
-- Open interface components: tips, mounts, and accessory adapters that connect through defined mechanical interfaces
-- Optional field accessories: terrain-specific, trip-specific, or user-modified add-ons
+- Structural assemblies: shafts, joints, clamps, and locking features that carry load and define core pole behavior
+- Open interface components: tips, mounts, adapters, and related attachment features intended for modular expansion
+- Supporting documentation: concept CAD, design notes, and reference information for released components
 
-The open portion of the project is concentrated at the interface layer. This allows customization and third-party development without exposing the full internal structural design.
+This structure allows non-critical components to be shared without exposing all product-defining or safety-sensitive details.
 
 ## Design Goals
 
-- Travel-friendly: reduced packed size and practical portability
-- Modular: replaceable and swappable functional components
-- Compact: efficient geometry without unnecessary part count
-- Maintainable: parts that can be serviced or replaced without specialized factory tooling
-- Interface-driven: open components designed around stable attachment standards
+- Compact travel-focused packing
+- Modular tip and accessory system
+- Serviceable non-critical components
+- Practical manufacturability
 
-## Release Boundaries
+## Open and Controlled Boundaries
 
-Open releases are limited to parts that can reasonably be documented, manufactured, and validated outside the closed system. Structural joints, locking systems, and supplier-dependent components remain outside the public release set.
+Open releases are focused on non-structural or interface-driven parts that can support experimentation and accessory development.
+
+Controlled areas include structural joints, locking systems, clamp details, manufacturing-specific information, and safety-critical tolerances.
