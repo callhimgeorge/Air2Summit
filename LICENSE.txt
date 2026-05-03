@@ -1,0 +1,7 @@
+Air2Summit
+Copyright (c) 2026 Air2Summit contributors
+
+Licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W v2).
+
+This file is a project license notice header only.
+Refer to the official CERN-OHL-W v2 license text for full terms and obligations.
